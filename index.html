@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Converter</title>
+  </head>
+  <body>
+    <h2>Memory Converter..</h2>
+    <h3>Input in Byte format</h3>
+    <input type="number" id="temp" name="temp" value="1">
+    <br /><br />
+    <select id="convert" name="convert">
+      <option value="bits">Bits</option>
+      <option value="kiloBytes">KiloBytes</option>
+      <option value="megaBytes">MegaBytes</option>
+      <option value="gigaBytes">GigaBytes</option>
+      <option value="pegaBytes">PegaBytes</option>
+    </select>
+    <button onclick="convertTo()">Convert</button>
+    <script src="index.js"></script>
+  </body>
+</html>
