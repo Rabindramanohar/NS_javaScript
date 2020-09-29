@@ -1,0 +1,30 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+#start{
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #1B74BB;
+    color: #02060a;
+} 
+
+#loss {
+    color: red;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #1B74BB;
+    font-size: x-large;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#congrats {
+    color: green;
+    font-family: cursive;
+}
